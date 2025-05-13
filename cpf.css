@@ -32,3 +32,22 @@ body{
     cursor: pointer;
 
 }
+
+/*Estilização de mensagem de validação */
+
+.message{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.message.sucess{
+background-color: aquamarine;
+color: green;
+}
+
+.message.error{
+background-color: rgb(234, 160, 160);
+color: red;
+}
